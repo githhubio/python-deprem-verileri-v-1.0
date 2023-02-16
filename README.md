@@ -10,3 +10,5 @@
 * `deprem.deprep()` # anlık verileri sadece bir kere yazar 
 * `deprem.sondepreptarih()` # anlık son deprem tarihini ve saatini yazar 
 * `deprem.deprepolcer(5)` # 5sn de bir anlık verileri yeniler / (5) = 5sn 
+
+Verilerin tamamı doğrulanmış ve resmi site olan afad tarafından sağlanmaktadır.
