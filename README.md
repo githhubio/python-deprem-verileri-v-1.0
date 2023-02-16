@@ -1,6 +1,6 @@
 # Deprem-verileri-python
-### Python da internet üzerinden türkiye deprem verilerini kolayca çekmeye yarayan basit bir
-### python kütüphanesi , Temel amacı deprem hakkında insanlara bilgi verebilmek.
+### Python da internet üzerinden türkiye deprem verilerini kolayca çekmeye yarayan basit bir python kütüphanesi , 
+### Temel amacı deprem hakkında insanlara bilgi verebilmek.
 ### Bu kütüphane üzrinden farklı programlar geliştirile bilir.
 
 + İçeri Aktarma Komutu :
