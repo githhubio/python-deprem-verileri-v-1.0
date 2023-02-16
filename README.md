@@ -1,0 +1,2 @@
+# deprem-verileri
+deprem
