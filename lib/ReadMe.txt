@@ -1,2 +1,1 @@
-Bu kütüphane dosyaları değiştirilemez ve ya
-Yayınlanamaz haklar mit lisasında saklıdır. 
+These library files cannot be modified or Unpublished rights reserved in myth.
