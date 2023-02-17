@@ -9,29 +9,38 @@ r = requests.get(url)
 soup = BeautifulSoup(r.content,"html.parser")
 
 gelen_veri = soup.find_all("table",{"class":"content-table"})
-gelen_veri2 = soup.find_all("td")
+
+gelen_veri2 = soup.find_all("table","td")
 
 depremzamanı = (gelen_veri2[0].contents [len(gelen_veri2[0].contents)-2])
 
-
 def depremveri():# anlık verileri sadece bir kere yazar
- print("turkiye son 100 deprem data=")
- print("****************************************************")
+ print("----------------------------------------------------")
  print(gelen_veri)
- print("****************************************************")
- print("veri boyutu: ",len(gelen_veri))
 
-def sondepremtarih():# anlık son deprem tarihini ve saatini yazar
- print("turkiye son deprem zamanı data=")
- print("****************************************************")
+def sondepreptarih():# anlık son deprem tarihini ve saatini yazar
+ print("----------------------------------------------------")
  print(depremzamanı)
- print("****************************************************")
 
-def depremolcer(xzamanbekle):#5sn de bir verileri yeniler
+def deprepolcer(xzamanbekle,y):#5sn de bir verileri yeniler
  while(True):
    time.sleep(xzamanbekle)
-   print("turkiye son 100 deprem data=")
-   print("****************************************************")
+   print("----------------------------------------------------")
    print(gelen_veri)
-   print("****************************************************")
-   print("veri boyutu: ",len(gelen_veri))
+   print("----------------------------------------------------")
+   if(y == True):# y = 1 ise veri boutu ile yaz
+    print("veri boyutu: ",len(gelen_veri))
+
+def veriboyutu(q):#gelen veri boyutunu söyler 1-veriler için 2-zaman
+  if(q == 1):
+    boyut = len(gelen_veri)
+    print("----------------------------------------------------")
+    print("veri boyutu: ",boyut)
+    print("----------------------------------------------------")
+    return gelen_veri
+  else:
+    boyut = len(gelen_veri)
+    print("----------------------------------------------------")
+    print("veri boyutu: ",boyut)
+    print("----------------------------------------------------")
+    return gelen_veri2
