@@ -11,4 +11,3 @@ deprem.deprepolcer(5,True) # 5sn de bir anlık verileri yeniler / (5) = 5sn (5, 
 
 #NOT : bu python kütphanei geliştirilmesi devam etmektedir kullanılan özeliklrt tamamen deneyseldir.
 # Hatalar ve eksiklikler bulunmaktadır. Fakat zaman ilde düzeltilip yenilenecektir son hali için takip ediniz.
-# Hatalarda yardımcı olmak için unloftgames@gmail.com adresine ve ya yorum olarak düzgün kodu ve ya hatayı yazabilirsiniz.
